@@ -34,20 +34,8 @@ const mapState = state => ({
   scrollSpeed: state.app.scrollSpeed
 });
 
-const mapDispatch = ({
-  app: {
-    setProjectSlug,
-    setIsTouch,
-    setScrollSpeed,
-    setPageScrollTop,
-    setAboutPanelOpen
-  }
-}) => ({
-  setProjectSlug,
-  setIsTouch,
-  setScrollSpeed,
-  setPageScrollTop,
-  setAboutPanelOpen
+const mapDispatch = ({ app: { setIsTouch } }) => ({
+  setIsTouch
 });
 
 export default withRematch(store, mapState, mapDispatch)(PApp);
