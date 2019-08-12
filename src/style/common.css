@@ -39,7 +39,8 @@
   div,
   button {
     line-height: $line-height-main;
-    color: $color-white;
+    color: $color-black;
+    font-family: $font-main;
   }
 
   b,

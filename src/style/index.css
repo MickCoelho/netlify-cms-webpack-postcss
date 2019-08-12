@@ -1,2 +1,6 @@
 @import '_variables.css';
 @import 'common.css';
+
+body {
+  background: red;
+}
