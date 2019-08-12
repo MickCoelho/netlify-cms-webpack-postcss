@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import content from '../../content/home.json';
+import content from '../../../content/home.json';
 import styles from './styles.css';
 
 export default class Home extends Component {
