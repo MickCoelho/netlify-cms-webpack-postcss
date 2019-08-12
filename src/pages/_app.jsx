@@ -1,8 +1,5 @@
 import React from 'react';
 import App, { Container } from 'next/app';
-import { func, number } from 'prop-types';
-import ReactGA from 'react-ga';
-import Router from 'next/router';
 
 import withRematch from '../store/utils/withRematch';
 import { store } from '../store';

@@ -7,7 +7,7 @@
 :global {
   html {
     font-size: $font-size-base;
-    font-family: $font-main;
+    font-family: $font-body;
     font-weight: normal;
     -moz-font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
@@ -16,6 +16,7 @@
   html,
   body {
     height: 100%;
+    font-size: $font-size-main;
   }
 
   a,
@@ -40,12 +41,12 @@
   button {
     line-height: $line-height-main;
     color: $color-black;
-    font-family: $font-main;
+    font-family: $font-body;
   }
 
   b,
   strong {
-    font-family: $font-main-bold;
+    font-family: $font-body-bold;
   }
 
   a {
@@ -64,7 +65,7 @@
   }
 
   button {
-    font-family: $font-main;
+    font-family: $font-body;
     background-color: $color-transparent;
   }
 

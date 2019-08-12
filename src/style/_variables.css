@@ -1,101 +1,22 @@
 /* COLORS */
 $color-purple: #7e00ff;
 $color-white: #ffffff;
-$color-white-transparent: rgba(255, 255, 255, 0);
 $color-red: #ff0000;
-$color-red-transparent: rgba(255, 0, 0, 0);
 $color-blue: #0000ff;
-$color-blue-transparent: rgba(0, 0, 255, 0);
 $color-black: #000000;
-$color-black-transparent: rgba(0, 0, 0, 0);
-$color-white-50: rgba(255, 255, 255, 0.5);
-$color-press-overlay: rgba(0, 0, 0, 0.6);
 $color-transparent: transparent;
 
 /* FONTS */
-$font-main: 'SharpGroteskBook18', 'Helvetica', sans-serif;
-$font-main-25: 'SharpGroteskBook25', 'Helvetica', sans-serif;
-$font-main-bold: 'SharpGrotesk-Medium25', 'Helvetica', 'Arial';
-$font-main-secondary: 'CenturyExpandedLTStd', 'Times';
-$font-main-secondary-italic: 'CenturyExpandedLTStd-Italic', 'Times';
+$font-body: 'ApercuRegular', 'Helvetica', sans-serif;
+$font-body-bold: 'ApercuBold', 'Helvetica', sans-serif;
+$font-body-em: 'MonostenA', 'Helvetica', sans-serif;
+$font-heading: 'NeuzeitgrotRegular', 'Helvetica', sans-serif;
+$font-heading-bold: 'NeuzeitgrotBold', 'Helvetica', sans-serif;
 $font-size-base: 62.5%;
-$font-size-main: 1.7rem;
+$font-size-main: 1.3rem;
 $line-height-main: 1.3;
-$font-size-global-nav-small: 1.3rem;
-$font-size-global-nav: 1.7rem;
-$font-size-global-nav-large: 1.9rem;
-$font-size-404-title: 2.3rem;
-$font-size-404-title-medium: 3.2rem;
-$font-size-404-title-large: 3.2rem;
-$font-size-404-text: 1.7rem;
-$font-size-404-text-medium: 1.9rem;
-$font-size-404-text-large: 2.1rem;
-$line-height-404-text: 1.2;
-$letter-spacing-404-text: 2;
-
-$letter-spacing-external-link: 0.2rem;
-$font-size-homepage-nav: 3rem;
-$font-size-homepage-nav-large: 4.8rem;
-$font-size-homepage-nav-extralarge: 4.8rem;
-$letter-spacing-homepage-nav: 0.1rem;
-$letter-spacing-homepage-nav-extralarge:  0.1rem;
-$line-height-homepage-nav: 1.2;
-$font-size-homepage-nav-secondary: 1.8rem;
-$letter-spacing-homepage-nav-secondary: 0.2rem;
-
-$font-size-manifesto-hero: 2.5rem;
-$font-size-manifesto-hero-medium: 4.8rem;
-$letter-spacing-manifesto-hero-medium: 0;
-$line-height-manifesto-hero-medium: 1.2;
-$line-height-manifesto-hero: 1.2;
-$letter-spacing-all-caps: 0.4rem;
-
-/* Projects Page  */
-$font-size-project-gist: 2.5rem;
-$font-size-project-gist-medium: 4.8rem;
-$line-height-projects-gist: 1.2;
-$letter-spacing-projects-gist: -0.1rem;
-$font-size-project-heading: 1.9rem;
-$font-size-project-synopsis: 1.7rem;
-$line-height-projects: 1.3;
-$letter-spacing-projects: 0.1rem;
-$font-size-project-body-bold: 1.7rem;
-$line-height-project-body-bold: 1.3;
-$letter-spacing-project-body-bold: 0.12rem;
-
-/* Team Page  */
-$font-size-team-header: 2.6rem;
-$font-size-team-header-bold: 1.7rem;
-$font-size-team-header-medium: 3.2rem;
-$font-size-team-header-bold-medium: 1.7rem;
-$line-height-team-header: 1.1;
-$letter-spacing-team-header: 0;
-$font-size-team-role: 1.7rem;
-$font-size-team-bio: 1.9rem;
-$font-size-team-additional-bio: 1.7rem;
-$line-height-team-bio: 1.3;
-$line-height-team-footer: 1.4;
-$font-size-team-name: 1.7rem;
-$font-size-team-lastname: 1.8rem;
-$line-height-team-name: 1.2;
-$font-size-team-title: 1.9rem;
-
-$font-size-approach-subheader: 1.4rem;
-$font-size-approach-subheader-bold: 1.4rem;
-$font-size-partners-subtitle: 1.9rem;
-$line-height-partners-subtitle: 1.3;
-
-$font-size-press-title: 1.7rem;
-$font-size-press-item-title: 2.6rem;
-$font-size-press-item-title-large: 3.2rem;
-$line-height-press-item-title: 1.2;
-$font-size-press-item-link: 1.7rem;
 
 /* LAYOUT */
-$tile-gutter-mobile: 5px;
-$tile-double-gutter-mobile: 10px;
-$tile-gutter: 45px;
-$tile-double-gutter: 90px;
 
 /* SOMETHING THAT SHOULD NEVER HAVE A VALUE GREATER THAN A MILION */
 $z-index-neg: -1;
