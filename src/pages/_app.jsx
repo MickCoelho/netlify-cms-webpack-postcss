@@ -31,15 +31,23 @@ class PApp extends App {
 }
 
 const mapState = state => ({
-  scrollSpeed: state.app.scrollSpeed,
+  scrollSpeed: state.app.scrollSpeed
 });
 
-const mapDispatch = ({ app: { setProjectSlug, setIsTouch, setScrollSpeed, setPageScrollTop, setAboutPanelOpen } }) => ({
+const mapDispatch = ({
+  app: {
+    setProjectSlug,
+    setIsTouch,
+    setScrollSpeed,
+    setPageScrollTop,
+    setAboutPanelOpen
+  }
+}) => ({
   setProjectSlug,
   setIsTouch,
   setScrollSpeed,
   setPageScrollTop,
-  setAboutPanelOpen,
+  setAboutPanelOpen
 });
 
 export default withRematch(store, mapState, mapDispatch)(PApp);
