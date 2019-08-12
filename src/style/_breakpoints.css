@@ -1,0 +1,33 @@
+/* import breakpoint values into js files, e.g. import {s} from '../_breakpoints.css'  */
+@value xs: 320;
+@value s: 448;
+@value m: 768;
+@value l: 1024;
+@value xl: 1280;
+@value hd: 1800;
+
+@custom-media --xs (width < 320px);
+@custom-media --s (width < 448px);
+@custom-media --m (width < 768px);
+@custom-media --m-inclusive (width <= 768px);
+@custom-media --l-inclusive (width <= 1024px);
+@custom-media --l (width < 1024px);
+@custom-media --xl (width < 1280px);
+@custom-media --hd (width < 1800px);
+
+@custom-media --above-xs (width >= 320px);
+@custom-media --above-xs-exclusive (width > 320px);
+@custom-media --above-s (width >= 448px);
+@custom-media --above-m (width >= 768px);
+@custom-media --above-m-exclusive (width > 768px);
+@custom-media --above-l (width >= 1024px);
+@custom-media --above-xl (width >= 1280px);
+@custom-media --above-hd (width >= 1800px);
+
+@custom-media --extra-short (height < 600px);
+@custom-media --short (height < 800px);
+@custom-media --tall (height >= 600px);
+
+@custom-media --hdpi (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi);
+@custom-media --landscape (orientation: landscape);
+@custom-media --portrait (orientation: portrait);

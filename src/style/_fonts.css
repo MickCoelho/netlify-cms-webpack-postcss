@@ -1,0 +1,51 @@
+/* stylelint-disable */
+@font-face {
+	font-family: CenturyExpandedLTStd;
+	src: url('/static/fonts/CenturyExpandedLTStd/CenturyExpandedLTStd.eot');
+	src:
+		url('/static/fonts/CenturyExpandedLTStd/CenturyExpandedLTStd.eot?#iefix') format('embedded-opentype'),
+		url('/static/fonts/CenturyExpandedLTStd/CenturyExpandedLTStd.woff2') format('woff2'),
+		url('/static/fonts/CenturyExpandedLTStd/CenturyExpandedLTStd.woff') format('woff'),
+		url('/static/fonts/CenturyExpandedLTStd/CenturyExpandedLTStd.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: CenturyExpandedLTStd-Italic;
+	src: url('/static/fonts/CenturyExpandedLTStd-Italic/CenturyExpandedLTStd-Italic.eot');
+	src:
+		url('/static/fonts/CenturyExpandedLTStd-Italic/CenturyExpandedLTStd-Italic.eot?#iefix') format('embedded-opentype'),
+		url('/static/fonts/CenturyExpandedLTStd-Italic/CenturyExpandedLTStd-Italic.woff2') format('woff2'),
+		url('/static/fonts/CenturyExpandedLTStd-Italic/CenturyExpandedLTStd-Italic.woff') format('woff'),
+		url('/static/fonts/CenturyExpandedLTStd-Italic/CenturyExpandedLTStd.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: SharpGrotesk-Medium25;
+	src: url('/static/fonts/SharpGrotesk-Medium25/SharpGrotesk-Medium25.eot');
+	src:
+		url('/static/fonts/SharpGrotesk-Medium25/SharpGrotesk-Medium25.eot?#iefix') format('embedded-opentype'),
+		url('/static/fonts/SharpGrotesk-Medium25/SharpGrotesk-Medium25.woff2') format('woff2'),
+		url('/static/fonts/SharpGrotesk-Medium25/SharpGrotesk-Medium25.woff') format('woff'),
+		url('/static/fonts/SharpGrotesk-Medium25/SharpGrotesk-Medium25.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: SharpGroteskBook25;
+	src: url('/static/fonts/SharpGroteskBook25/SharpGroteskBook25.eot');
+	src:
+		url('/static/fonts/SharpGroteskBook25/SharpGroteskBook25.eot?#iefix') format('embedded-opentype'),
+		url('/static/fonts/SharpGroteskBook25/SharpGroteskBook25.woff2') format('woff2'),
+		url('/static/fonts/SharpGroteskBook25/SharpGroteskBook25.woff') format('woff'),
+		url('/static/fonts/SharpGroteskBook25/SharpGroteskBook25.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: SharpGroteskBook18;
+	src: url('/static/fonts/SharpGroteskBook18/SharpGroteskBook18.eot');
+	src:
+		url('/static/fonts/SharpGroteskBook18/SharpGroteskBook18.eot?#iefix') format('embedded-opentype'),
+		url('/static/fonts/SharpGroteskBook18/SharpGroteskBook18.woff2') format('woff2'),
+		url('/static/fonts/SharpGroteskBook18/SharpGroteskBook18.woff') format('woff'),
+		url('/static/fonts/SharpGroteskBook18/SharpGroteskBook18.ttf') format('truetype');
+}
+/* stylelint-enable */
