@@ -13,7 +13,7 @@
 * CSS Modules
 
 ## Environments
-[![Netlify Status](https://api.netlify.com/api/v1/badges/152211bb-c5fc-43bb-809a-beb1b52f0b25/deploy-status)](https://app.netlify.com/sites/nifty-turing-c2a084/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/39983ee1-522c-4b9e-912c-07d08b3bcae7/deploy-status)](https://app.netlify.com/sites/gifted-joliot-552017/deploys)
 
 ### Credentials
 
