@@ -1,18 +1,8 @@
 @import "../../style/_breakpoints.css";
 @import "../../style/_variables.css";
 
-@keyframes rotating {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.container {
-  h1 {
-    color: $color-red;
-  }
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
 }
