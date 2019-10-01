@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "next src",
-    "build": "next build src",
+    "build": "run-p build:**",
+    "build:app": "next build src",
+    "build:lambda": "netlify-lambda build src/lambda",
     "start": "next start src",
     "export": "npm run build && next export src -o out",
     "lint": "run-p lint:js lint:css",
