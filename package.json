@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "netlify-lambda install",
     "dev": "next src",
     "build": "run-p build:**",
     "build:app": "next build src",
@@ -31,6 +32,7 @@
     "babel-polyfill": "^6.26.0",
     "classnames": "^2.2.6",
     "dotenv": "7.0.0",
+    "g": "^2.0.1",
     "install": "^0.13.0",
     "lodash.filter": "4.6.0",
     "netlify-lambda": "^1.6.3",
