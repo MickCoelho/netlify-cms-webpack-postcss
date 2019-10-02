@@ -2,3 +2,6 @@
   command = "npm run export"
   functions = "built-lambda"
   publish = "out"
+
+[template.environment]
+  FAUNADB_SERVER_SECRET = "fnADZu4qj-ACCuUH9ednlWNkzoCRS7HHgZ3LTI6U"
