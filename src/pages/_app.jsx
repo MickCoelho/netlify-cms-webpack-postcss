@@ -1,10 +1,9 @@
 import React from 'react';
 import App, { Container } from 'next/app';
-import fetch from 'node-fetch';
 
 import withRematch from '../store/utils/withRematch';
 import { store } from '../store';
-import readAll from '../utils/api';
+import API from '../utils/api';
 
 import styles from '../style/index.css'; // eslint-disable-line
 
@@ -24,14 +23,25 @@ class PApp extends App {
   render() {
     const { Component, pageProps } = this.props;
 
-    const allOfThem = fetch(
-      '/.netlify/functions/customers-read-all',
-    ).then((response) => {
-      return response.json();
-    });
-    // const allOfThem = readAll;
+    // const allOfThem = fetch(
+    //   '/.netlify/functions/customers-read-all',
+    // ).then((response) => {
+    //   return response.json();
+    // });
+    // console.log(allOfThem);
 
-    console.log(allOfThem);
+    // Todo data
+    const myTodo = {
+      title: 'My todo title',
+      completed: false,
+    };
+    API.create(myTodo)
+      .then((response) => {
+        console.log('API response', response);
+      })
+      .catch((error) => {
+        console.log('API error', error);
+      });
 
     return (
       <Container>
