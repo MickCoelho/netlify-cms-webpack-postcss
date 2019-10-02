@@ -4,4 +4,4 @@
   publish = "out"
 
 [template.environment]
-  FAUNADB_SERVER_SECRET = "fnADZu4qj-ACCuUH9ednlWNkzoCRS7HHgZ3LTI6U"
+  FAUNADB_SERVER_SECRET = "fnADZvlW0jACCuGxgyaWVsqHLSeg5jC87Bydx7Z6"
