@@ -1,4 +1,5 @@
 import fetch from 'node-fetch';
+console.log('ok');
 
 const readAll = () => {
   return fetch('/.netlify/functions/customers-read-all').then(
