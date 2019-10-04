@@ -7,22 +7,20 @@
     "commonjs": true,
     "es6": true
   },
-  "plugins": [
-    "react",
-    "jsx-a11y",
-  ],
+  "plugins": ["react", "jsx-a11y"],
   "parserOptions": {
     "ecmaVersion": 7,
     "sourceType": "module",
     "ecmaFeatures": {
-      "jsx": true,
+      "jsx": true
     }
   },
   "rules": {
+    "arrow-parens": 0,
     "function-paren-newline": 0,
     "global-require": 0,
     "react/no-find-dom-node": 0,
-    "indent": ["error", 2, {"SwitchCase": 1}],
+    "indent": ["error", 2, { "SwitchCase": 1 }],
     "max-len": 0,
     "new-cap": [
       2,
@@ -35,31 +33,25 @@
     "no-shadow": 0,
     "no-underscore-dangle": 0,
     "no-tabs": 0,
-    "comma-dangle": [
-      "error",
-      "always-multiline"
-    ],
-    "no-confusing-arrow": ["error", {"allowParens": true}],
-    object-curly-newline: 0,
+    "comma-dangle": ["error", "always-multiline"],
+    "no-confusing-arrow": ["error", { "allowParens": true }],
+    "object-curly-newline": 0,
     "import/no-named-as-default": 0,
-    "react/jsx-indent-props": [
-      2,
-      2
-    ],
-    "react/jsx-indent": [
-      2,
-      2
-    ],
+    "react/jsx-indent-props": [2, 2],
+    "react/jsx-indent": [2, 2],
     "react/no-danger": 0,
     "react/require-default-props": 0,
     "react/prefer-stateless-function": 0,
     "react/no-children-prop": 0,
-    "no-unused-expressions": ["error", {"allowTernary": true}],
+    "no-unused-expressions": ["error", { "allowTernary": true }],
     "jsx-a11y/media-has-caption": 0,
-    "jsx-a11y/anchor-is-valid": ["error", {
-      "components": [ "Link" ],
-      "specialLink": [ "to" ],
-      "aspects": [ "noHref", "invalidHref" ]
-    }]
-  },
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["to"],
+        "aspects": ["noHref", "invalidHref"]
+      }
+    ]
+  }
 }
