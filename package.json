@@ -37,7 +37,7 @@
     "install": "^0.13.0",
     "lodash.filter": "4.6.0",
     "netlify-lambda": "^1.6.3",
-    "next": "^8.1.0",
+    "next": "^13.0.3",
     "npm": "^6.11.3",
     "postcss-advanced-variables": "3.0.0",
     "postcss-calc": "^7.0.1",
